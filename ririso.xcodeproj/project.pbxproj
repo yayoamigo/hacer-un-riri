@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE204A261F50D9B20051C443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE204A251F50D9B20051C443 /* AppDelegate.swift */; };
+		CE204A281F50D9B20051C443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE204A271F50D9B20051C443 /* ViewController.swift */; };
+		CE204A2B1F50D9B20051C443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE204A291F50D9B20051C443 /* Main.storyboard */; };
+		CE204A2D1F50D9B20051C443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE204A2C1F50D9B20051C443 /* Assets.xcassets */; };
+		CE204A301F50D9B20051C443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE204A2E1F50D9B20051C443 /* LaunchScreen.storyboard */; };
+		CE204A3B1F50D9B20051C443 /* ririsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE204A3A1F50D9B20051C443 /* ririsoTests.swift */; };
+		CE204A461F50D9B20051C443 /* ririsoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE204A451F50D9B20051C443 /* ririsoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE204A371F50D9B20051C443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE204A1A1F50D9B20051C443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE204A211F50D9B20051C443;
+			remoteInfo = ririso;
+		};
+		CE204A421F50D9B20051C443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE204A1A1F50D9B20051C443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE204A211F50D9B20051C443;
+			remoteInfo = ririso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE204A221F50D9B20051C443 /* ririso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ririso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE204A251F50D9B20051C443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE204A271F50D9B20051C443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE204A2A1F50D9B20051C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE204A2C1F50D9B20051C443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE204A2F1F50D9B20051C443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE204A311F50D9B20051C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE204A361F50D9B20051C443 /* ririsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ririsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE204A3A1F50D9B20051C443 /* ririsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ririsoTests.swift; sourceTree = "<group>"; };
+		CE204A3C1F50D9B20051C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE204A411F50D9B20051C443 /* ririsoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ririsoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE204A451F50D9B20051C443 /* ririsoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ririsoUITests.swift; sourceTree = "<group>"; };
+		CE204A471F50D9B20051C443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE204A1F1F50D9B20051C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A331F50D9B20051C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A3E1F50D9B20051C443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE204A191F50D9B20051C443 = {
+			isa = PBXGroup;
+			children = (
+				CE204A241F50D9B20051C443 /* ririso */,
+				CE204A391F50D9B20051C443 /* ririsoTests */,
+				CE204A441F50D9B20051C443 /* ririsoUITests */,
+				CE204A231F50D9B20051C443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE204A231F50D9B20051C443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE204A221F50D9B20051C443 /* ririso.app */,
+				CE204A361F50D9B20051C443 /* ririsoTests.xctest */,
+				CE204A411F50D9B20051C443 /* ririsoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE204A241F50D9B20051C443 /* ririso */ = {
+			isa = PBXGroup;
+			children = (
+				CE204A251F50D9B20051C443 /* AppDelegate.swift */,
+				CE204A271F50D9B20051C443 /* ViewController.swift */,
+				CE204A291F50D9B20051C443 /* Main.storyboard */,
+				CE204A2C1F50D9B20051C443 /* Assets.xcassets */,
+				CE204A2E1F50D9B20051C443 /* LaunchScreen.storyboard */,
+				CE204A311F50D9B20051C443 /* Info.plist */,
+			);
+			path = ririso;
+			sourceTree = "<group>";
+		};
+		CE204A391F50D9B20051C443 /* ririsoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE204A3A1F50D9B20051C443 /* ririsoTests.swift */,
+				CE204A3C1F50D9B20051C443 /* Info.plist */,
+			);
+			path = ririsoTests;
+			sourceTree = "<group>";
+		};
+		CE204A441F50D9B20051C443 /* ririsoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE204A451F50D9B20051C443 /* ririsoUITests.swift */,
+				CE204A471F50D9B20051C443 /* Info.plist */,
+			);
+			path = ririsoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE204A211F50D9B20051C443 /* ririso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE204A4A1F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririso" */;
+			buildPhases = (
+				CE204A1E1F50D9B20051C443 /* Sources */,
+				CE204A1F1F50D9B20051C443 /* Frameworks */,
+				CE204A201F50D9B20051C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ririso;
+			productName = ririso;
+			productReference = CE204A221F50D9B20051C443 /* ririso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE204A351F50D9B20051C443 /* ririsoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE204A4D1F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririsoTests" */;
+			buildPhases = (
+				CE204A321F50D9B20051C443 /* Sources */,
+				CE204A331F50D9B20051C443 /* Frameworks */,
+				CE204A341F50D9B20051C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE204A381F50D9B20051C443 /* PBXTargetDependency */,
+			);
+			name = ririsoTests;
+			productName = ririsoTests;
+			productReference = CE204A361F50D9B20051C443 /* ririsoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE204A401F50D9B20051C443 /* ririsoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE204A501F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririsoUITests" */;
+			buildPhases = (
+				CE204A3D1F50D9B20051C443 /* Sources */,
+				CE204A3E1F50D9B20051C443 /* Frameworks */,
+				CE204A3F1F50D9B20051C443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE204A431F50D9B20051C443 /* PBXTargetDependency */,
+			);
+			name = ririsoUITests;
+			productName = ririsoUITests;
+			productReference = CE204A411F50D9B20051C443 /* ririsoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE204A1A1F50D9B20051C443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE204A211F50D9B20051C443 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CE204A351F50D9B20051C443 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE204A211F50D9B20051C443;
+					};
+					CE204A401F50D9B20051C443 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE204A211F50D9B20051C443;
+					};
+				};
+			};
+			buildConfigurationList = CE204A1D1F50D9B20051C443 /* Build configuration list for PBXProject "ririso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE204A191F50D9B20051C443;
+			productRefGroup = CE204A231F50D9B20051C443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE204A211F50D9B20051C443 /* ririso */,
+				CE204A351F50D9B20051C443 /* ririsoTests */,
+				CE204A401F50D9B20051C443 /* ririsoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE204A201F50D9B20051C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE204A301F50D9B20051C443 /* LaunchScreen.storyboard in Resources */,
+				CE204A2D1F50D9B20051C443 /* Assets.xcassets in Resources */,
+				CE204A2B1F50D9B20051C443 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A341F50D9B20051C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A3F1F50D9B20051C443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE204A1E1F50D9B20051C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE204A281F50D9B20051C443 /* ViewController.swift in Sources */,
+				CE204A261F50D9B20051C443 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A321F50D9B20051C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE204A3B1F50D9B20051C443 /* ririsoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE204A3D1F50D9B20051C443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE204A461F50D9B20051C443 /* ririsoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE204A381F50D9B20051C443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE204A211F50D9B20051C443 /* ririso */;
+			targetProxy = CE204A371F50D9B20051C443 /* PBXContainerItemProxy */;
+		};
+		CE204A431F50D9B20051C443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE204A211F50D9B20051C443 /* ririso */;
+			targetProxy = CE204A421F50D9B20051C443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE204A291F50D9B20051C443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE204A2A1F50D9B20051C443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE204A2E1F50D9B20051C443 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE204A2F1F50D9B20051C443 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE204A481F50D9B20051C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE204A491F50D9B20051C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE204A4B1F50D9B20051C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ririso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE204A4C1F50D9B20051C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ririso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririso;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE204A4E1F50D9B20051C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ririsoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ririso.app/ririso";
+			};
+			name = Debug;
+		};
+		CE204A4F1F50D9B20051C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ririsoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ririso.app/ririso";
+			};
+			name = Release;
+		};
+		CE204A511F50D9B20051C443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ririsoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririsoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ririso;
+			};
+			name = Debug;
+		};
+		CE204A521F50D9B20051C443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ririsoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = e.ririsoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ririso;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE204A1D1F50D9B20051C443 /* Build configuration list for PBXProject "ririso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE204A481F50D9B20051C443 /* Debug */,
+				CE204A491F50D9B20051C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE204A4A1F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE204A4B1F50D9B20051C443 /* Debug */,
+				CE204A4C1F50D9B20051C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE204A4D1F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririsoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE204A4E1F50D9B20051C443 /* Debug */,
+				CE204A4F1F50D9B20051C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE204A501F50D9B20051C443 /* Build configuration list for PBXNativeTarget "ririsoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE204A511F50D9B20051C443 /* Debug */,
+				CE204A521F50D9B20051C443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE204A1A1F50D9B20051C443 /* Project object */;
+}
